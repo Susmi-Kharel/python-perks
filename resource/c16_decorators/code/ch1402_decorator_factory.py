@@ -13,10 +13,10 @@ def log(before: bool, after: bool):
     def factory(func):
         def _inner(*args, **kwargs):
             if before:
-                print(f"function execution started at: {time.time()}")
+                print(f"function {func} execution started at: {time.time()}")
             result = func(*args, **kwargs)
             if after:
-                print(f"function execution ended at: {time.time()}")
+                print(f"function {func} execution ended at: {time.time()}")
             return result
 
         return _inner
@@ -28,7 +28,9 @@ def log(before: bool, after: bool):
 def delay_execution(seconds):
     time.sleep(seconds)
 
-
+@log(before=True, after=False)
+def print_hello():
+    print("Hello")
 # ================================[ Example 2 ]================================
 def moves(x: int, y: int):
     """
@@ -52,4 +54,5 @@ def move_king(x, y):
 
 if __name__ == "__main__":
     delay_execution(2)
+    print_hello()
     move_king(1, 1)

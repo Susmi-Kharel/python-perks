@@ -39,6 +39,14 @@ print("Calling Decorated method: ")
 decorated()
 ```
 
+### output
+
+```
+Calling Decorated method:
+This is first called before executing the original method
+This is an original method
+```
+
 To avoid creating a new `calable` identifier named `decorated` and calling it,
 we can use `@` annotation to define it as a decorator so that we can directly
 use`original_method()` instead.
@@ -96,5 +104,56 @@ if __name__ == "__main__":
 ```
 
 # decorator factories
+
+Sometimes, we might need to configure the decorated method with different
+arguments. For example, We might have different conditions to log the timing
+of different methods.
+
+In such scenario, decorator factory is useful. decorator factory uses one more
+level of decorated function that accepts argument so that same decorator can be
+used at multiple places with multiple behaviors.
+
+For example:
+
+```python
+import time
+
+def log(before: bool, after: bool):
+    def factory(func):
+        def _inner(*args, **kwargs):
+            if before:
+                print(f"function {func} execution started at: {time.time()}")
+            result = func(*args, **kwargs)
+            if after:
+                print(f"function {func} execution ended at: {time.time()}")
+            return result
+
+        return _inner
+
+    return factory
+
+
+@log(True, True)
+def delay_execution(seconds):
+    time.sleep(seconds)
+
+@log(before=True, after=False)
+def print_hello():
+    print("Hello")
+
+
+delay_execution(2)
+print_hello()
+
+```
+
+### Output
+
+```
+function <function delay_execution at 0x0000021614B2E200> execution started at: 1735680038.99797
+function <function delay_execution at 0x0000021614B2E200> execution ended at: 1735680040.9992893
+function <function print_hello at 0x0000021614B2E340> execution started at: 1735680040.9992893
+Hello
+```
 
 # class based decorators

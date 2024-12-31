@@ -18,14 +18,6 @@ decorated = decorate_me(original_method)
 print("Calling Decorated method: ")
 decorated()
 
-"""
-# Output:
-
-Calling Decorated method:
-This is first called before executing the original method
-This is an original method
-
-"""
 # ================================[ Example 2 ]================================
 
 
