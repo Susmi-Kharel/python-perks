@@ -19,6 +19,43 @@ Decorators are higher order functions that accept functions or callables as
 arguments, modifies it's base behavior, and finally returns the same callable by
 updating the arguments accordingly.
 
+**The raw behavior of decorator is shown in the code below**:
+
+```python
+def decorate_me(func):
+    def inner(*args, **kwargs):
+        print("This is first called before executing the original method")
+        return func(*args, **kwargs)
+
+    return inner
+
+
+def original_method():
+    print("This is an original method")
+
+
+decorated = decorate_me(original_method)
+print("Calling Decorated method: ")
+decorated()
+```
+
+To avoid creating a new `calable` identifier named `decorated` and calling it,
+we can use `@` annotation to define it as a decorator so that we can directly
+use`original_method()` instead.
+
+```diff
++ @decorate_me
+def original_method():
+    print("This is an original method")
+
+- decorated = decorate_me(original_method)
+print("Calling Decorated method: ")
+- decorated()
+
++ original_method()
+
+```
+
 Decorator pattern is a well-known design pattern in programming language that
 helps us utilizing the same feature along multiple functions without changing
 each functions repeatedly.
