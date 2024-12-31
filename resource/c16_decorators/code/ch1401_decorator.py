@@ -1,5 +1,36 @@
+# ================================[ Example 1 ]================================
+# raw behavior of decorator
+
+
+def decorate_me(func):
+    def inner(*args, **kwargs):
+        print("This is first called before executing the original method")
+        return func(*args, **kwargs)
+
+    return inner
+
+
+def original_method():
+    print("This is an original method")
+
+
+decorated = decorate_me(original_method)
+print("Calling Decorated method: ")
+decorated()
+
+"""
+# Output:
+
+Calling Decorated method:
+This is first called before executing the original method
+This is an original method
+
+"""
+# ================================[ Example 2 ]================================
+
+
 def auto_typecast(fn):
-    def inner(x: str, y):
+    def inner(x, y):
         if isinstance(x, str):
             x = int(x)
         if isinstance(y, str):
