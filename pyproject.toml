@@ -2,16 +2,25 @@
 name = "python-perks"
 version = "1.0.0"
 description = "A repository for Python course notes, examples, and lab exercises targeted to students, professionals, and enthusiasts."
-authors = [{ name = "Sudip Ghimire", email = "ghimiresdp@gmail.com" }]
+authors = [
+    { name = "Sudip Ghimire", email = "ghimiresdp@gmail.com" }
+]
 license = "MIT"
 readme = "README.md"
 requires-python = ">=3.10"
 
-dependencies = ["requests>=2.32.3"]
+dependencies = [
+    "requests>=2.32.3",
+]
 
 [dependency-groups]
-dev = ["ruff>=0.8.4"]
-test = ["pytest>=8.3.4"]
+dev = [
+    "ipython>=8.31.0",
+    "ruff>=0.8.4",
+]
+test = [
+    "pytest>=8.3.4",
+]
 
 [tool.ruff]
 line-length = 88
