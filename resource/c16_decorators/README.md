@@ -157,3 +157,35 @@ Hello
 ```
 
 # class based decorators
+
+Class based decorators are decorators that behave similar to functional
+decorators, however they are created using classes. It uses special methods
+`__init__`, and `__call__` to accomplish similar behavior.
+
+Example:
+
+```python
+class LoggerDecorator:
+    def __init__(self, func: Callable) -> None:
+        self.func = func
+
+    def __call__(self, *args: Any, **kwds: Any) -> Any:
+        print(f"the function {self.func.__name__} is being called")
+        result = self.func(*args, **kwds)
+        print(f"the function {self.func.__name__} has been successfully called")
+        return result
+
+
+@LoggerDecorator
+def regular_function():
+    print("this is a function body")
+
+regular_function()
+```
+
+### output
+```
+the function regular_function is being called
+this is a function body
+the function regular_function has been successfully called
+```
