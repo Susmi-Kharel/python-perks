@@ -9,8 +9,10 @@
 **Table of contents**:
 - [Chapter 16: Decorators](#chapter-16-decorators)
 - [Introduction to decorators](#introduction-to-decorators)
+    - [output](#output)
 - [decorator factories](#decorator-factories)
 - [class based decorators](#class-based-decorators)
+  - [Decorating Classes](#decorating-classes)
 
 
 # Introduction to decorators
@@ -147,7 +149,7 @@ print_hello()
 
 ```
 
-### Output
+**Output**
 
 ```
 function <function delay_execution at 0x0000021614B2E200> execution started at: 1735680038.99797
@@ -183,9 +185,38 @@ def regular_function():
 regular_function()
 ```
 
-### output
+**output**
 ```
 the function regular_function is being called
 this is a function body
 the function regular_function has been successfully called
+```
+
+## Decorating Classes
+
+We can also use decorators in classes to change the actual behavior of classes.
+For example, If we want to add some methods or change the behavior of class, we
+can use this. A class decorator accepts class as the first argument and returns
+a new inherited or a modified class.
+
+The example below uses `@personify` decorator to decorate a class `Animal` so
+that we can set `full_name` to it.
+
+```python
+def personify(cls):
+    class Wrapped(cls):
+        def set_full_name(self, full_name: str):
+            self.full_name = full_name
+
+    return Wrapped
+
+
+@personify
+class Animal:
+    pass
+
+
+animal = Animal()
+animal.set_full_name("John")
+print(f"The full name is: {animal.full_name}")
 ```
