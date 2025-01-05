@@ -4,6 +4,7 @@
 - [Chapter 15: Advanced Type Hinting using `Typing` module](#chapter-15-advanced-type-hinting-using-typing-module)
   - [Introduction to type hinting](#introduction-to-type-hinting)
   - [Type hinting variables for multiple data types.](#type-hinting-variables-for-multiple-data-types)
+  - [Type hinting functions](#type-hinting-functions)
 
 
 ## Introduction to type hinting
@@ -74,3 +75,14 @@ role = 'five'
 in the above code snippet, the type of the identifier `roll` is defined as
 `int | str` which shows that the identifier `roll` can be either `int` or
 `string`
+
+
+## Type hinting functions
+
+Function can also be hinted using `:` notation for parameters and `->` for the
+return type. An example of function with type hinting is as follows:
+
+```python
+def add(a: int, b:int)->int:
+  return a + b
+```
