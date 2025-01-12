@@ -6,7 +6,3 @@ data: dict[str, int] = {
     "age": 10,
     "grade": 5,
 }
-
-
-def add(x: int, y: int) -> int:
-    return x + y

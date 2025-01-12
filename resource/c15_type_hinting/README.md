@@ -4,7 +4,7 @@
 - [Chapter 15: Advanced Type Hinting using `Typing` module](#chapter-15-advanced-type-hinting-using-typing-module)
   - [Introduction to type hinting](#introduction-to-type-hinting)
   - [Type hinting variables for multiple data types.](#type-hinting-variables-for-multiple-data-types)
-  - [Type hinting functions](#type-hinting-functions)
+  - [Type hinting in functions and methods](#type-hinting-in-functions-and-methods)
 
 
 ## Introduction to type hinting
@@ -77,12 +77,17 @@ in the above code snippet, the type of the identifier `roll` is defined as
 `string`
 
 
-## Type hinting functions
+## Type hinting in functions and methods
 
-Function can also be hinted using `:` notation for parameters and `->` for the
-return type. An example of function with type hinting is as follows:
+Function type hinting includes hinting the data type of a parameter as well as
+return type. parameter type hinting is same as identifier type hinting which
+uses colon `:` annotation, whereas return type is hinted using
+hyphen `-` followed by greater than sign `>` when combined looks like right
+arrow `->`.
+
+The example of function type hinting is as follows:
 
 ```python
-def add(a: int, b:int)->int:
+def distance(a: int, b:int)->int:
   return a + b
 ```
