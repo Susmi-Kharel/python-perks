@@ -5,6 +5,7 @@
   - [Introduction to type hinting](#introduction-to-type-hinting)
   - [Type hinting variables for multiple data types.](#type-hinting-variables-for-multiple-data-types)
   - [Type hinting in functions and methods](#type-hinting-in-functions-and-methods)
+  - [Advanced Type hinting](#advanced-type-hinting)
 
 
 ## Introduction to type hinting
@@ -90,4 +91,18 @@ The example of function type hinting is as follows:
 ```python
 def distance(a: int, b:int)->int:
   return a + b
+```
+
+## Advanced Type hinting
+
+We can also hint types for advanced data types such as lists, sets, etc. In
+newer versions of python more type hints are available in the standard library
+in which we do not need to import `typing` module. in older versions of python,
+we needed to import specific `types` from the `typing` library. Type hinting has
+been even easier since `python 3.10` which introduced some.
+
+The following examples are type hinting for advanced data types as well as
+options.
+
+```python
 ```
