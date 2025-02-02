@@ -1,33 +1,33 @@
 [project]
-name = "python-perks"
-version = "1.0.0"
-description = "A repository for Python course notes, examples, and lab exercises targeted to students, professionals, and enthusiasts."
-authors = [
-    { name = "Sudip Ghimire", email = "ghimiresdp@gmail.com" }
+name="python-perks"
+version="1.0.0"
+description="A repository for Python course notes, examples, and lab exercises targeted to students, professionals, and enthusiasts."
+authors=[
+    { name="Sudip Ghimire", email="ghimiresdp@gmail.com" },
 ]
-license = "MIT"
-readme = "README.md"
-requires-python = ">=3.10"
+license="MIT"
+readme="README.md"
+requires-python=">=3.10"
 
-dependencies = [
+dependencies=[
     "requests>=2.32.3",
 ]
 
 [dependency-groups]
-dev = [
+dev=[
     "ipython>=8.31.0",
     "ruff>=0.8.4",
 ]
-test = [
+test=[
     "pytest>=8.3.4",
 ]
 
 [tool.ruff]
-line-length = 88
-indent-width = 4
-target-version = "py312"
+line-length=88
+indent-width=4
+target-version="py312"
 # Exclude a variety of commonly ignored directories.
-exclude = [
+exclude=[
     ".bzr",
     ".direnv",
     ".eggs",
@@ -57,27 +57,27 @@ exclude = [
 ]
 
 [tool.ruff.format]
-quote-style = "double"
-indent-style = "space"
-skip-magic-trailing-comma = false
+quote-style="double"
+indent-style="space"
+skip-magic-trailing-comma=false
 
 # poetry is now deprecated
 [tool.poetry]
-name = "python-perks"
-version = "1.0.0"
-description = "A repository for Python course notes, examples, and lab exercises targeted to students, professionals, and enthusiasts."
-authors = ["Sudip Ghimire <ghimiresdp@gmail.com>"]
-license = "MIT"
-readme = "README.md"
-package-mode = false
+name="python-perks"
+version="1.0.0"
+description="A repository for Python course notes, examples, and lab exercises targeted to students, professionals, and enthusiasts."
+authors=[ "Sudip Ghimire <ghimiresdp@gmail.com>" ]
+license="MIT"
+readme="README.md"
+package-mode=false
 
 [tool.poetry.dependencies]
-python = ">=3.10"
-requests = "^2.32.3"
+python=">=3.10"
+requests="^2.32.3"
 
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.8.1"
+ruff="^0.8.1"
 
 # [build-system]
 # requires = ["poetry-core"]
