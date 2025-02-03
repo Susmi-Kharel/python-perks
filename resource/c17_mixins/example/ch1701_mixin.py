@@ -1,9 +1,11 @@
 """
 ! To run, please run the following command in your preferred shell
 
-python resource/c17_mixins/example/ch1501_mixin.py
+python resource/c17_mixins/example/ch1701_mixin.py
 
 """
+
+
 class Vehicle:
     """
     Base class
