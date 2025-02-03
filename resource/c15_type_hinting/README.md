@@ -95,14 +95,47 @@ def distance(a: int, b:int)->int:
 
 ## Advanced Type hinting
 
-We can also hint types for advanced data types such as lists, sets, etc. In
-newer versions of python more type hints are available in the standard library
-in which we do not need to import `typing` module. in older versions of python,
-we needed to import specific `types` from the `typing` library. Type hinting has
-been even easier since `python 3.10` which introduced some.
+[REF: <https://docs.python.org/3/library/typing.html>]
 
-The following examples are type hinting for advanced data types as well as
-options.
+We can also hint types for advanced data types such as lists, sets, etc. which
+may contain multiple data types inside of them. For example a list might contain
+`str`, `int`, `float`, or even `List` itself. We can hint those types using
+`Union` from `Typing` library or `|` opetator on newer version of python.
+
+In older versions of python (`3.5` - `3.9`), we had to import types for complex
+types such as `List`, `Dict`, etc. when we had to provide data type of such
+compound data types. example `List[str]`.
+
+Example:
 
 ```python
+from typing import List, Literal, TypedDict, Union
+my_list: List[Union[int, str]] = ["John", "Jane", 2]
+
+class User(TypedDict):
+    id: int
+    name: str
+    type: Literal["admin", "staff"]
+
+```
+
+In newer versions of python (`Python >= 3.10`) more type hints and operators are
+available in the standard library. Because of which our code is even more
+readable.
+
+For example, instead of importing `List`, we have `list` type than can be used
+to hint advanced list type. Another example is the use of Pipe `|` Operator
+instead of `Union` type. So, the type `Union[str, int]` can be replaced by
+`str | int`.
+
+However completely avoiding the `typing` module is still not possible for some
+data types such as `Literal` or `TypedDict`.
+
+Example:
+```python
+from typing import Literal, TypedDict
+
+# my_list: List[Union[int, str]] = ["John", "Jane", 2]
+my_list: list[int | str] = ["John", "Jane", 2]
+
 ```
