@@ -17,8 +17,25 @@ journey as a python programmer.
     - [Linear Search](src/algorithms/searching/linear_search.py)
     - [Binary Search](src/algorithms/searching/binary_search.py)
   - Sorting Algorithms
+    - Bubble Sort
+    - Insertion Sort
+    - Quick Sort
+    - Selection Sort
 - [Data Structures](src/data_structures/README.md)
-- Design Patterns
+  - Linked List
+  - Doubly Linked List
+  - Binary Tree
+  - Queue
+  - Stack
+- [Design Patterns](src/design_patterns/README.md)
+  - Adapter Pattern
+  - Builder Pattern
+  - Command Pattern
+  - Decorator Pattern
+  - Factory Pattern
+  - Observer Pattern
+  - Singleton Pattern
+  - Strategy Pattern
 
 ## Notes
 _(Links will be updated accordingly)_
