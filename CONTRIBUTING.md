@@ -36,7 +36,7 @@ respectful environment where everyone feels welcome and valued.
 
 - **Respect**: Treat everyone with respect, regardless of their background or
   opinions.
-- **Inclusivity**: Promote a welcoming and inclusive environment for all.
+- **Inclusiveness**: Promote a welcoming and inclusive environment for all.
 - **Constructive** Communication: Engage in constructive and respectful
   discussions, avoiding personal attacks or insults.
 - **Openness**: Be open to feedback and criticism, and be willing to learn from

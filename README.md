@@ -9,12 +9,17 @@ journey as a python programmer.
 > to different levels while still being able to sync with the new changes in the
 > repository.
 
-## Course Difficulty Level
+## Course Contents
 
-- **Chapter 1 - 10**: Easy
-- **Chapter 11 - 20**: Medium
+- [Notes (Please See Below)](#notes)
+- [Algorithms](src/algorithms/README.md)
+  - Searching Algorithms
+  - Sorting Algorithms
+- [Data Structures](src/data_structures/README.md)
+- Design Patterns
 
-## Course Contents _(Links will be updated accordingly)_
+## Notes
+_(Links will be updated accordingly)_
 
 1. **[Fundamentals of Python](resource/c01_basics)**
     - [Introduction to Python](resource/c01_basics/Chapter-1.1-Basics.md)

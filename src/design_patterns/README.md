@@ -1,7 +1,7 @@
-# Data Structures
+# Design patterns
 
-This module contains some basic and complex Data structures that can be
-implemented using python.
+This module contains Some of the popular design patterns that can be implemented
+in Python Programming language.
 
 **Note**:
 _All examples might not be optimum for production use since we will try to_
