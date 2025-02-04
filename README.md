@@ -19,7 +19,7 @@ journey as a python programmer.
   - Sorting Algorithms
     - Bubble Sort
     - Insertion Sort
-    - Quick Sort
+    - [Quick Sort](src/algorithms/sorting/quick_sort.py)
     - Selection Sort
 - [Data Structures](src/data_structures/README.md)
   - Linked List

@@ -17,5 +17,5 @@ _make it as simpler as possible to understand the basic concept in each topic._
 ### Sorting Algorithms
 - Bubble Sort
 - Insertion Sort
-- Quick Sort
+- [Quick Sort](sorting/quick_sort.py)
 - Selection Sort
