@@ -11,6 +11,6 @@ _make it as simpler as possible to understand the basic concept in each topic._
 
 - [Linked List](linked_list.py)
 - [Doubly Linked List](doubly_linked_list.py)
-- Binary Tree
+- [Binary Tree](binary_tree.py)
 - [Queue](queue.py)
 - [Stack](stack.py)
