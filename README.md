@@ -11,7 +11,11 @@ journey as a python programmer.
 
 ## Course Contents
 
-- [Notes (Please See Below)](#notes)
+###  Algorithms
+**NOTE**:
+_If you are a beginner, please check the [Notes section](#notes) to get started_
+_with python first._
+
 - [Algorithms](src/algorithms/README.md)
   - Searching Algorithms
     - [Linear Search](src/algorithms/searching/linear_search.py)
