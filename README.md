@@ -13,8 +13,8 @@ journey as a python programmer.
 
 ###  Algorithms
 **NOTE**:
-_If you are a beginner, please check the [Notes section](#notes) to get started_
-_with python first._
+_If you are an absolute beginner in python, please check_
+_[**Notes section**](#notes) first to get started with python._
 
 - [Algorithms](src/algorithms/README.md)
   - Searching Algorithms
@@ -27,7 +27,7 @@ _with python first._
     - [Selection Sort](src/algorithms/sorting/selection_sort.py)
 - [Data Structures](src/data_structures/README.md)
   - [Linked List](src/data_structures/linked_list.py)
-  - Doubly Linked List
+  - [Doubly Linked List](src/data_structures/doubly_linked_list.py)
   - Binary Tree
   - Queue
   - Stack

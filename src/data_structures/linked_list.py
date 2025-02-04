@@ -1,6 +1,3 @@
-from typing import Optional
-
-
 class Node:
     next: "Node"
 
@@ -72,8 +69,8 @@ class LinkedList:
 
     def __str__(self) -> str:
         if self.head is None:
-            return "Linked List([])"
-        return f"Linked List ([ {self.head} ])"
+            return "LinkedList([])"
+        return f"LinkedList([ {self.head} ])"
 
     def __repr__(self) -> str:
         return self.__str__()
