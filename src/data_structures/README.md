@@ -9,7 +9,7 @@ _make it as simpler as possible to understand the basic concept in each topic._
 
 ## Contents
 
-- Linked List
+- [Linked List](linked_list.py)
 - Doubly Linked List
 - Binary Tree
 - Queue

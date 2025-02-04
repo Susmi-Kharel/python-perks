@@ -26,7 +26,7 @@ _with python first._
     - [Quick Sort](src/algorithms/sorting/quick_sort.py)
     - [Selection Sort](src/algorithms/sorting/selection_sort.py)
 - [Data Structures](src/data_structures/README.md)
-  - Linked List
+  - [Linked List](src/data_structures/linked_list.py)
   - Doubly Linked List
   - Binary Tree
   - Queue
