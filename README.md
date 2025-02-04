@@ -29,8 +29,8 @@ _[**Notes section**](#notes) first to get started with python._
   - [Linked List](src/data_structures/linked_list.py)
   - [Doubly Linked List](src/data_structures/doubly_linked_list.py)
   - Binary Tree
-  - Queue
-  - Stack
+  - [Queue](src/data_structures/queue.py)
+  - [Stack](src/data_structures/stack.py)
 - [Design Patterns](src/design_patterns/README.md)
   - Adapter Pattern
   - Builder Pattern
