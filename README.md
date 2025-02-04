@@ -14,6 +14,8 @@ journey as a python programmer.
 - [Notes (Please See Below)](#notes)
 - [Algorithms](src/algorithms/README.md)
   - Searching Algorithms
+    - [Linear Search](src/algorithms/searching/linear_search.py)
+    - [Binary Search](src/algorithms/searching/binary_search.py)
   - Sorting Algorithms
 - [Data Structures](src/data_structures/README.md)
 - Design Patterns

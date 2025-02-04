@@ -12,6 +12,8 @@ def binary_search(sorted_list: list, item: int) -> int | None:
     It works recursively and non-recursively, but as recursive functions are not
     good for larger arrays, we implemented while loop.
 
+    The Time complexity of a binary search is O(log(n))
+
     ## NOTE:
     The binary search works only on the sorted array. If an array is not sorted,
     we must sort it before we implement this algorithm.
