@@ -18,4 +18,4 @@ _make it as simpler as possible to understand the basic concept in each topic._
 - [Bubble Sort](sorting/bubble_sort.py)
 - [Insertion Sort](sorting/insertion_sort.py)
 - [Quick Sort](sorting/quick_sort.py)
-- Selection Sort
+- [Selection Sort](sorting/selection_sort.py)

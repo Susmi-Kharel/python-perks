@@ -24,7 +24,7 @@ _with python first._
     - [Bubble Sort](src/algorithms/sorting/bubble_sort.py)
     - [Insertion Sort](src/algorithms/sorting/insertion_sort.py)
     - [Quick Sort](src/algorithms/sorting/quick_sort.py)
-    - Selection Sort
+    - [Selection Sort](src/algorithms/sorting/selection_sort.py)
 - [Data Structures](src/data_structures/README.md)
   - Linked List
   - Doubly Linked List
