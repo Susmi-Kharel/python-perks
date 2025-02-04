@@ -17,9 +17,9 @@ journey as a python programmer.
     - [Linear Search](src/algorithms/searching/linear_search.py)
     - [Binary Search](src/algorithms/searching/binary_search.py)
   - Sorting Algorithms
-    - Bubble Sort
-    - Insertion Sort
-    - Quick Sort
+    - [Bubble Sort](src/algorithms/sorting/bubble_sort.py)
+    - [Insertion Sort](src/algorithms/sorting/insertion_sort.py)
+    - [Quick Sort](src/algorithms/sorting/quick_sort.py)
     - Selection Sort
 - [Data Structures](src/data_structures/README.md)
   - Linked List

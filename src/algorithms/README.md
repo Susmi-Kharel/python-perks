@@ -15,7 +15,7 @@ _make it as simpler as possible to understand the basic concept in each topic._
 - [Binary Search](searching/binary_search.py)
 
 ### Sorting Algorithms
-- Bubble Sort
-- Insertion Sort
-- Quick Sort
+- [Bubble Sort](sorting/bubble_sort.py)
+- [Insertion Sort](sorting/insertion_sort.py)
+- [Quick Sort](sorting/quick_sort.py)
 - Selection Sort
