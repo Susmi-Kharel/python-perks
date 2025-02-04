@@ -19,25 +19,6 @@ def selection_sort(unsorted: list):
     -...
     Swap values until all values are sorted
     """
-
-    """
-        for i in 0..array.len() {
-        let mut smallest = i;
-        for j in i..array.len() {
-            if array[smallest] > array[j] {
-                smallest = j;
-            }
-        }
-        if smallest != i {
-            print!(
-                "Swapping {} and {} from {:?} -> ",
-                array[smallest], array[i], array
-            );
-            array.swap(i, smallest);
-            println!("{:?}", array)
-        }
-    }
-    """
     for index in range(0, unsorted.__len__()):
         smallest = index
         for target in range(index, unsorted.__len__()):
