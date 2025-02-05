@@ -13,8 +13,8 @@ _make it as simpler as possible to understand the basic concept in each topic._
 - Adapter Pattern
 - Builder Pattern
 - Command Pattern
-- Decorator Pattern
-- Factory Pattern
+- [Decorator Pattern](decorator.py)
+- [Factory Pattern](factory.py)
 - Observer Pattern
-- Singleton Pattern
+- [Singleton Pattern](singleton.py)
 - Strategy Pattern

@@ -35,10 +35,10 @@ _[**Notes section**](#notes) first to get started with python._
   - Adapter Pattern
   - Builder Pattern
   - Command Pattern
-  - Decorator Pattern
-  - Factory Pattern
+  - [Decorator Pattern](src/design_patterns/decorator.py)
+  - [Factory Pattern](src/design_patterns/factory.py)
   - Observer Pattern
-  - Singleton Pattern
+  - [Singleton Pattern](src/design_patterns/singleton.py)
   - Strategy Pattern
 
 ## Notes
