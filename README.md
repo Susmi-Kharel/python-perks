@@ -32,8 +32,8 @@ _[**Notes section**](#notes) first to get started with python._
   - [Queue](src/data_structures/queue.py)
   - [Stack](src/data_structures/stack.py)
 - [Design Patterns](src/design_patterns/README.md)
-  - Adapter Pattern
-  - Builder Pattern
+  - [Adapter Pattern](src/design_patterns/adapter.py)
+  - [Builder Pattern](src/design_patterns/builder.py)
   - Command Pattern
   - [Decorator Pattern](src/design_patterns/decorator.py)
   - [Factory Pattern](src/design_patterns/factory.py)

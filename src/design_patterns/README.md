@@ -10,8 +10,8 @@ _make it as simpler as possible to understand the basic concept in each topic._
 
 ## Contents
 
-- Adapter Pattern
-- Builder Pattern
+- [Adapter Pattern](adapter.py)
+- [Builder Pattern](builder.py)
 - Command Pattern
 - [Decorator Pattern](decorator.py)
 - [Factory Pattern](factory.py)
