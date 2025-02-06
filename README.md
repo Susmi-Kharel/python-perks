@@ -34,7 +34,7 @@ _[**Notes section**](#notes) first to get started with python._
 - [Design Patterns](src/design_patterns/README.md)
   - [Adapter Pattern](src/design_patterns/adapter.py)
   - [Builder Pattern](src/design_patterns/builder.py)
-  - Command Pattern
+  - [Command Pattern](src/design_patterns/command.py)
   - [Decorator Pattern](src/design_patterns/decorator.py)
   - [Factory Pattern](src/design_patterns/factory.py)
   - Observer Pattern
