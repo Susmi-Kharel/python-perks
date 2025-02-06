@@ -12,7 +12,7 @@ _make it as simpler as possible to understand the basic concept in each topic._
 
 - [Adapter Pattern](adapter.py)
 - [Builder Pattern](builder.py)
-- Command Pattern
+- [Command Pattern](command.py)
 - [Decorator Pattern](decorator.py)
 - [Factory Pattern](factory.py)
 - Observer Pattern
