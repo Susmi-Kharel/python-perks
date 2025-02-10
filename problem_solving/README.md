@@ -12,7 +12,7 @@ to review our previously learned python notes section.
 
 Some of the Basic Problem Solving solutions are as follows:
 
-1. Practical Number Solution
+1. [Practical Number Solution](basic/practical_number.py)
 2. Iteration with Comprehension
 3. Greatest Common Divisor
 4. Matrix Multiplication
