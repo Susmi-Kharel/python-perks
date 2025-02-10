@@ -41,7 +41,24 @@ _[**Notes section**](#notes) first to get started with python._
   - [Singleton Pattern](design_patterns/singleton.py)
   - Strategy Pattern
 
-## Notes
+### [Problem Solving](problem_solving/README.md)
+
+1. [Basic Problem Solving](problem_solving/basic/)
+   1. Practical Number Solution
+   2. Iteration with Comprehension
+   3. Greatest Common Divisor
+   4. Matrix Multiplication
+   5. Median Calculation
+   6. Mathematically Reversing Integers
+
+2. [Dynamic Programming](problem_solving/dp/)
+   1. Coin Change Problem
+   2. Fibonacci Series Problem
+   3. Palindrome Partition Problem
+   4. Minimizing the sum of list of integers
+   5. Longest Common Subsequence Problem
+
+### Notes
 _(Links will be updated accordingly)_
 
 1. **[Fundamentals of Python](notes/c01_basics)**
