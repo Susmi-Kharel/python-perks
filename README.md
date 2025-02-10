@@ -16,29 +16,29 @@ journey as a python programmer.
 _If you are an absolute beginner in python, please check_
 _[**Notes section**](#notes) first to get started with python._
 
-- [Algorithms](src/algorithms/README.md)
+- [Algorithms](algorithms/README.md)
   - Searching Algorithms
-    - [Linear Search](src/algorithms/searching/linear_search.py)
-    - [Binary Search](src/algorithms/searching/binary_search.py)
+    - [Linear Search](algorithms/searching/linear_search.py)
+    - [Binary Search](algorithms/searching/binary_search.py)
   - Sorting Algorithms
-    - [Bubble Sort](src/algorithms/sorting/bubble_sort.py)
-    - [Insertion Sort](src/algorithms/sorting/insertion_sort.py)
-    - [Quick Sort](src/algorithms/sorting/quick_sort.py)
-    - [Selection Sort](src/algorithms/sorting/selection_sort.py)
-- [Data Structures](src/data_structures/README.md)
-  - [Linked List](src/data_structures/linked_list.py)
-  - [Doubly Linked List](src/data_structures/doubly_linked_list.py)
-  - [Binary Tree](src/data_structures/binary_tree.py)
-  - [Queue](src/data_structures/queue.py)
-  - [Stack](src/data_structures/stack.py)
-- [Design Patterns](src/design_patterns/README.md)
-  - [Adapter Pattern](src/design_patterns/adapter.py)
-  - [Builder Pattern](src/design_patterns/builder.py)
-  - [Command Pattern](src/design_patterns/command.py)
-  - [Decorator Pattern](src/design_patterns/decorator.py)
-  - [Factory Pattern](src/design_patterns/factory.py)
+    - [Bubble Sort](algorithms/sorting/bubble_sort.py)
+    - [Insertion Sort](algorithms/sorting/insertion_sort.py)
+    - [Quick Sort](algorithms/sorting/quick_sort.py)
+    - [Selection Sort](algorithms/sorting/selection_sort.py)
+- [Data Structures](data_structures/README.md)
+  - [Linked List](data_structures/linked_list.py)
+  - [Doubly Linked List](data_structures/doubly_linked_list.py)
+  - [Binary Tree](data_structures/binary_tree.py)
+  - [Queue](data_structures/queue.py)
+  - [Stack](data_structures/stack.py)
+- [Design Patterns](design_patterns/README.md)
+  - [Adapter Pattern](design_patterns/adapter.py)
+  - [Builder Pattern](design_patterns/builder.py)
+  - [Command Pattern](design_patterns/command.py)
+  - [Decorator Pattern](design_patterns/decorator.py)
+  - [Factory Pattern](design_patterns/factory.py)
   - Observer Pattern
-  - [Singleton Pattern](src/design_patterns/singleton.py)
+  - [Singleton Pattern](design_patterns/singleton.py)
   - Strategy Pattern
 
 ## Notes
@@ -193,7 +193,7 @@ _(Links will be updated accordingly)_
 The repository has its folder structure as shown in example below:
 
 ```
-resource
+notes
 ├── README.md
 ├── c01_basics
 │   ├── Chapter 1 Basics.md
