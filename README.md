@@ -44,7 +44,7 @@ _[**Notes section**](#notes) first to get started with python._
 ### [Problem Solving](problem_solving/README.md)
 
 1. [Basic Problem Solving](problem_solving/basic/)
-   1. Practical Number Solution
+   1. [Practical Number Solution](problem_solving/basic/practical_number.py)
    2. Iteration with Comprehension
    3. Greatest Common Divisor
    4. Matrix Multiplication
