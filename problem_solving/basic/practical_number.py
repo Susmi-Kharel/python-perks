@@ -72,5 +72,16 @@ def is_practical_number(num: int) -> bool:
 if __name__ == "__main__":
     for number in [8, 10, 12, 15]:
         print(
-            f"{number:5d}: {'✅' if is_practical_number(number) else '⛔ Not'} Practical"
+            f"{number:<5d}: {'✅' if is_practical_number(number) else '⛔ Not'} Practical"
         )
+
+"""
+
+OUTPUT
+---------
+8    : ✅ Practical
+10   : ⛔ Not Practical
+12   : ✅ Practical
+15   : ⛔ Not Practical
+
+"""
