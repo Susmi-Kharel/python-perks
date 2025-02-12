@@ -52,7 +52,7 @@ _[**Notes section**](#notes) first to get started with python._
    6. [Reverse digits of an integer](problem_solving/basic/reverse_digits.py)
 
 2. [Dynamic Programming](problem_solving/dp/)
-   1. Coin Change Problem
+   1. [Coin Change Problem](problem_solving/dp/coin_change.py)
    2. [Fibonacci Series Problem](problem_solving/dp/fibonacci.py)
    3. Palindrome Partition Problem
    4. Minimizing the sum of list of integers
