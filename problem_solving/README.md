@@ -28,7 +28,7 @@ problems while managing time and space complexity efficiently.
 
 Some of the Dynamic Programming solutions are as follows:
 
-1. Coin Change Problem
+1. [Coin Change Problem](dp/coin_change.py)
 2. [Fibonacci Series Problem](dp/fibonacci.py)
 3. Palindrome Partition Problem
 4. Minimizing the sum of list of integers
