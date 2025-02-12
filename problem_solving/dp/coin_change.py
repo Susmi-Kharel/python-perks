@@ -22,6 +22,37 @@ and so on
 but the change with option 3 will have minimum number of coins to change. so the
 solution will be `3`.
 
+We solve it using dynamic programming
+
+intermediate sums:
+
+--------------------+-----------------------------------------------------------
+n   ->  changes     | Remarks
+--------------------+-----------------------------------------------------------
+0   ->  0           |
+1   ->  1           | [1 coin of 1]
+2   ->  1           | [1 coin of 2]
+3   ->  2           | [ 1 + { table(n-2)) = 1 }] = 2
+4   ->  2           | [ 1 + { table(n-2) = 1 }] = 2
+5   ->  1           | [1 coin of 5]
+6   ->  2           | [1 +{ table(n-5) = 1}] = 2
+7   ->  2           | [1 +{ table(n-5) = 1}] = 2
+8   ->  3           | [1 +{ table(n-5) = 2}] = 3
+9   ->  3           | [1 +{ table(n-5) = 2}] = 3
+10  ->  2           | [1 +{ table(n-5) = 1}] = 2
+11  ->  3           | [1 +{ table(n-5) = 2}] = 3
+--------------------+-----------------------------------------------------------
+
+for sum 11, we have largest coin 5 so, we need to find num of changes for
+sum of (11-5) = 6, similarly for 6, (6-5) = 1
+
+number of change for 6 = (number of changes for 1) + 1
+                        = 1 + 1
+                        = 2
+
+number of change for 11 = (number of changes for 6) + 1
+                        = 2 + 1
+                        = 3
 """
 
 import sys
