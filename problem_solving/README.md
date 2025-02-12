@@ -17,7 +17,7 @@ Some of the Basic Problem Solving solutions are as follows:
 3. [Greatest Common Divisor](basic/gcd.py)
 4. Matrix Multiplication
 5. Median Calculation
-6. Mathematically Reversing Integers
+6. [Reverse digits of an integer](basic/reverse_digits.py)
 
 
 ## Dynamic Programming
