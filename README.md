@@ -53,7 +53,7 @@ _[**Notes section**](#notes) first to get started with python._
 
 2. [Dynamic Programming](problem_solving/dp/)
    1. Coin Change Problem
-   2. Fibonacci Series Problem
+   2. [Fibonacci Series Problem](problem_solving/dp/fibonacci.py)
    3. Palindrome Partition Problem
    4. Minimizing the sum of list of integers
    5. Longest Common Subsequence Problem
