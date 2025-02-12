@@ -49,7 +49,7 @@ _[**Notes section**](#notes) first to get started with python._
    3. [Greatest Common Divisor](problem_solving/basic/gcd.py)
    4. Matrix Multiplication
    5. Median Calculation
-   6. Mathematically Reversing Integers
+   6. [Reverse digits of an integer](problem_solving/basic/reverse_digits.py)
 
 2. [Dynamic Programming](problem_solving/dp/)
    1. Coin Change Problem
