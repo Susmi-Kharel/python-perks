@@ -45,11 +45,10 @@ _[**Notes section**](#notes) first to get started with python._
 
 1. [Basic Problem Solving](problem_solving/basic/)
    1. [Practical Number Solution](problem_solving/basic/practical_number.py)
-   2. Iteration with Comprehension
-   3. [Greatest Common Divisor](problem_solving/basic/gcd.py)
-   4. Matrix Multiplication
-   5. Median Calculation
-   6. [Reverse digits of an integer](problem_solving/basic/reverse_digits.py)
+   2. [Greatest Common Divisor](problem_solving/basic/gcd.py)
+   3. [Matrix Multiplication](problem_solving/basic/matrix_multiplication.py)
+   4. Median Calculation
+   5. [Reverse digits of an integer](problem_solving/basic/reverse_digits.py)
 
 2. [Dynamic Programming](problem_solving/dp/)
    1. [Coin Change Problem](problem_solving/dp/coin_change.py)

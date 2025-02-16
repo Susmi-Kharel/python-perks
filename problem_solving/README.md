@@ -13,11 +13,10 @@ to review our previously learned python notes section.
 Some of the Basic Problem Solving solutions are as follows:
 
 1. [Practical Number Solution](basic/practical_number.py)
-2. Iteration with Comprehension
-3. [Greatest Common Divisor](basic/gcd.py)
-4. Matrix Multiplication
-5. Median Calculation
-6. [Reverse digits of an integer](basic/reverse_digits.py)
+2. [Greatest Common Divisor](basic/gcd.py)
+3. [Matrix Multiplication](basic/matrix_multiplication.py)
+4. Median Calculation
+5. [Reverse digits of an integer](basic/reverse_digits.py)
 
 
 ## Dynamic Programming
