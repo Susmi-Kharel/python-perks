@@ -32,7 +32,7 @@ class Matrix:
     def zeros(cls, rows: int, cols: int):
         if rows < 1 and cols < 1:
             raise ValueError("invalid rows or columns provided")
-        return [[0] * rows] * cols
+        return Matrix([[0 for _ in range(rows)] for _ in range(cols)])
 
     def __init__(self, data: list[list[int | float]]) -> None:
         if data.__len__():
@@ -51,25 +51,54 @@ class Matrix:
         return (self.data[0].__len__(), self.data.__len__())
 
     def get_row(self, index: int):
-        return [d[index] for d in self.data]
+        return self.data[index]
 
     def get_column(self, index: int):
-        return self.data[index]
+        return [d[index] for d in self.data]
 
     def __str__(self) -> str:
         if self.data.__len__():
-            return "|   |"
-        return "\n".join(
-            ["| " + "".join([f"{i:^5d}" for i in row]) + " |" for row in self.data]
-        )
+            return "\n".join(
+                ["| " + "".join([f"{i:^5d}" for i in row]) + " |" for row in self.data]
+            )
+        return "|   |"
 
     def __mul__(self, other: "Matrix"):
         """
         This method overloads python's default multiplication operation between
         two Matrix objects so that we can easily perform `*` operation.
         """
-        # TODO
-        pass
+        (self_rows, self_cols) = self.size
+        (other_rows, other_cols) = other.size
+        if self_rows != other_cols:
+            raise ValueError("Dimensions mismatch")
+
+        # by for loop and matrix.zeros
+        # this part is easy to understand but is a bit more computationally expensive
+
+        # result = Matrix.zeros(other_rows, self_cols)
+        # for row in range(other_rows):
+        #     for col in range(self_cols):
+        #         result.data[row][col] = sum(
+        #             [a * b for (a, b) in zip(self.get_row(row), other.get_column(col))]
+        #         )
+        # return result
+
+        # by comprehension quicker
+        return Matrix(
+            [
+                [
+                    sum(
+                        [
+                            a * b
+                            for (a, b) in zip(self.get_row(row), other.get_column(col))
+                        ]
+                    )
+                    for col in range(self_cols)
+                ]
+                for row in range(other_rows)
+            ]
+        )
 
 
 if __name__ == "__main__":
@@ -83,7 +112,13 @@ if __name__ == "__main__":
     #         [5, 6],
     #     ]
     # )
-    m1 = Matrix([[1, 2], [3, 4]])
-    m2 = Matrix([[2, 3], [4, 5]])
 
-    print("result is: \n", m1 * m2)
+    # if we uncomment lines below, we get Dimensions mismatch exception
+    # m1 = Matrix([[1, 2, 3], [4, 5, 6]])
+    # m2 = Matrix([[2, 3, 4], [5, 6, 7]])
+    # print("result is: \n", m1 * m2)
+
+    m1 = Matrix([[1, 2, 3], [4, 5, 6]])
+    m2 = Matrix([[2, 3], [4, 5], [6, 7]])
+    print("m1 X m2 = :", m1 * m2, sep="\n")
+    print("m2 X m1 = :", m2 * m1, sep="\n")
