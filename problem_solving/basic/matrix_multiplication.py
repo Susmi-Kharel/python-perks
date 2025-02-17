@@ -26,7 +26,13 @@ do not have better understanding of iteration.
 
 
 class Matrix:
-    # __data: list[list[int | float]]
+    data: list[list[int | float]]
+
+    @classmethod
+    def zeros(cls, rows: int, cols: int):
+        if rows < 1 and cols < 1:
+            raise ValueError("invalid rows or columns provided")
+        return [[0] * rows] * cols
 
     def __init__(self, data: list[list[int | float]]) -> None:
         if data.__len__():
@@ -36,19 +42,25 @@ class Matrix:
             for col in range(1, data.__len__()):
                 if data[col].__len__() != _len:
                     raise ValueError("Invalid matrix")
-        self.__data = data
+        self.data = data
 
     @property
     def size(self):
-        if self.__data.__len__() == 0:
+        if self.data.__len__() == 0:
             return (0, 0)
-        return (self.__data[0].__len__(), self.__data.__len__())
+        return (self.data[0].__len__(), self.data.__len__())
+
+    def get_row(self, index: int):
+        return [d[index] for d in self.data]
+
+    def get_column(self, index: int):
+        return self.data[index]
 
     def __str__(self) -> str:
-        if self.__data.__len__():
+        if self.data.__len__():
             return "|   |"
         return "\n".join(
-            ["| " + "".join([f"{i:^5d}" for i in row]) + " |" for row in self.__data]
+            ["| " + "".join([f"{i:^5d}" for i in row]) + " |" for row in self.data]
         )
 
     def __mul__(self, other: "Matrix"):
