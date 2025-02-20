@@ -47,7 +47,7 @@ _[**Notes section**](#notes) first to get started with python._
    1. [Practical Number Solution](problem_solving/basic/practical_number.py)
    2. [Greatest Common Divisor](problem_solving/basic/gcd.py)
    3. [Matrix Multiplication](problem_solving/basic/matrix_multiplication.py)
-   4. Median Calculation
+   4. [Median Calculation](problem_solving/basic/median.py)
    5. [Reverse digits of an integer](problem_solving/basic/reverse_digits.py)
 
 2. [Dynamic Programming](problem_solving/dp/)

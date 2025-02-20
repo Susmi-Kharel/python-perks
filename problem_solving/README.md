@@ -15,7 +15,7 @@ Some of the Basic Problem Solving solutions are as follows:
 1. [Practical Number Solution](basic/practical_number.py)
 2. [Greatest Common Divisor](basic/gcd.py)
 3. [Matrix Multiplication](basic/matrix_multiplication.py)
-4. Median Calculation
+4. [Median Calculation](basic/median.py)
 5. [Reverse digits of an integer](basic/reverse_digits.py)
 
 
