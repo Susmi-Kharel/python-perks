@@ -25,6 +25,7 @@ _[**Notes section**](#notes) first to get started with python._
     - [Insertion Sort](algorithms/sorting/insertion_sort.py)
     - [Quick Sort](algorithms/sorting/quick_sort.py)
     - [Selection Sort](algorithms/sorting/selection_sort.py)
+    - [Merge Sort](algorithms/sorting/merge_sort.py)
 - [Data Structures](data_structures/README.md)
   - [Linked List](data_structures/linked_list.py)
   - [Doubly Linked List](data_structures/doubly_linked_list.py)
