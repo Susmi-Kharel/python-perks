@@ -4,12 +4,7 @@ def merge(left: list, right: list):
     while True:
         left_exhausted = not left.__len__()
         right_exhausted = not right.__len__()
-        print("⛔ left: ", left)
-        print("⛔ right: ", right)
-        print("⛔ Merged: ", merged)
-        print(
-            f"Left: {left} <Exh: {left_exhausted}>, Right: {right} <Exh: {right_exhausted}>"
-        )
+        # print("⛔ left: ", left, "right: ", right, "Merged: ", merged)
 
         if left_exhausted and right_exhausted:
             break
@@ -69,7 +64,6 @@ def merge_sort(data: list):
     mid_ptr = data.__len__() // 2
     # split and merge
     left, right = data[:mid_ptr], data[mid_ptr:]
-    print(f"⛔ Split: {left}, {right}")
     return merge(merge_sort(left), merge_sort(right))
 
 
