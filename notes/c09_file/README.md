@@ -3,22 +3,22 @@
 **Table of Contents**:
 
 - [Chapter 9: File Handling in Python](#chapter-9-file-handling-in-python)
-  - [Introduction to File Handling](#introduction-to-file-handling)
-  - [File Opening Modes](#file-opening-modes)
-  - [Opening and closing a file in python](#opening-and-closing-a-file-in-python)
-  - [Reading a file](#reading-a-file)
+  - [9.1. Introduction to File Handling](#91-introduction-to-file-handling)
+  - [9.2. File Opening Modes](#92-file-opening-modes)
+  - [9.3. Opening and closing a file in python](#93-opening-and-closing-a-file-in-python)
+  - [9.4. Reading a file](#94-reading-a-file)
     - [The newer approach using `with` keyword](#the-newer-approach-using-with-keyword)
-  - [Writing into a file](#writing-into-a-file)
-  - [Appending into a file](#appending-into-a-file)
-  - [Reading a file line by line](#reading-a-file-line-by-line)
+  - [9.5. Writing into a file](#95-writing-into-a-file)
+  - [9.6. Appending into a file](#96-appending-into-a-file)
+  - [9.7. Reading a file line by line](#97-reading-a-file-line-by-line)
 
-## Introduction to File Handling
+## 9.1. Introduction to File Handling
 
 - Python is capable of handling or manipulating data stored in files.
 - We can open a file using inbuilt `open()` function.
 - While opening a file, we have to pass different modes as a parameter to specify what we're trying to do with the file.
 
-## File Opening Modes
+## 9.2. File Opening Modes
 
 1. `r`: **Reading** mode
    - The default mode.
@@ -61,7 +61,7 @@
 12. `ab+`: **Binary Apend** mode
     - same as `a+` mode but forced in binary mode
 
-## Opening and closing a file in python
+## 9.3. Opening and closing a file in python
 
 - We use `open()` function to open the file.
 - We use `file.close()` method to close the file.
@@ -74,7 +74,7 @@ file_obj = open("<filename>", "<mode>")
 file_obj.close()
 ```
 
-## Reading a file
+## 9.4. Reading a file
 
 ```python
 file = open("my_file.txt", "r")
@@ -94,21 +94,21 @@ with open('my_file.txt', 'r') as f:
 print("At this point, the file is closed")
 ```
 
-## Writing into a file
+## 9.5. Writing into a file
 
 ```python
 with open('my_file.txt', 'w') as f:
     f.write("This is the content to the file.")
 ```
 
-## Appending into a file
+## 9.6. Appending into a file
 
 ```python
 with open('my_file.txt', 'a') as f:
     f.write("This is the appended content to the file.")
 ```
 
-## Reading a file line by line
+## 9.7. Reading a file line by line
 
 ```python
 with open ('my_file.txt', 'r') as f:
