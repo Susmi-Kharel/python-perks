@@ -10,10 +10,10 @@
 >
 **Table of contents**:
 
-- [Chapter 8.1 Python Modules](chapter-8.1-modules.md)
-- [Chapter 8.2 Packages](chapter-8.2-packages.md)
-- [Chapter 8.3 `datetime` Module](chapter-8.3-datetime.md)
-- [Chapter 8.4 `random` Module](chapter-8.4-random.md)
-- [Chapter 8.5 `json` Module](chapter-8.5-json.md)
-- [Chapter 8.6 `math` Module](chapter-8.6-math.md)
-- [Chapter 8.7 `complex` and `cmath` Module](chapter-8.7-complex-and-cmath.md)
+- [8.1. Python Modules](chapter-8.1-modules.md)
+- [8.2. Packages](chapter-8.2-packages.md)
+- [8.3. `datetime` Module](chapter-8.3-datetime.md)
+- [8.4. `random` Module](chapter-8.4-random.md)
+- [8.5. `json` Module](chapter-8.5-json.md)
+- [8.6. `math` Module](chapter-8.6-math.md)
+- [8.7. `complex` and `cmath` Module](chapter-8.7-complex-and-cmath.md)

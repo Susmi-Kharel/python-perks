@@ -59,14 +59,12 @@ _[**Notes section**](#notes) first to get started with python._
    5. Longest Common Subsequence Problem
 
 ### Notes
-_(Links will be updated accordingly)_
-
-1. **[Fundamentals of Python](notes/c01_basics)**
+1. **[Fundamentals of Python](notes/c01_basics/README.md)**
     - [Introduction to Python](notes/c01_basics/Chapter-1.1-Basics.md)
     - [Python Environment Setup, IDE Setup](notes/c01_basics/Chapter-1.1-Basics.md#installing-python)
     - [Hello World in Python](notes/c01_basics/Chapter-1.1-Basics.md#hello-world-with-idle)
     - [Running Python Programs](notes/c01_basics/Chapter-1.1-Basics.md#creating-editing-and-running-python-files)
-    - comments and documentation
+    - [comments and documentation](notes/c01_basics/Chapter-1.1-Basics.md#comment-lines)
         - Single Line Comments
         - inline Comments
         - Multiline Comments
@@ -74,101 +72,106 @@ _(Links will be updated accordingly)_
     - indentation
     - [Chapter 1 Quiz](notes/c01_basics/quiz)
 
-2. **[Variables, basic data type and operations](notes/c02_basic_data_types)**
-    - [Variables, constants, and keywords](notes/c02_basic_data_types/Chapter%202.1%20Variables.md)
-    - [Numeric Data Types](notes/c02_basic_data_types/Chapter%202.2%20Numeric%20Data%20Types.md)
-    - [Strings](notes/c02_basic_data_types/Chapter%202.3%20Strings.md)
-    - [String Formatting](notes/c02_basic_data_types/Chapter%202.4%20string%20formatting.md)
-    - [Basic Operations](notes/c02_basic_data_types/Chapter%202.5%20Operations.md)
-    - Type Hinting in Python (only for python 3.6 and later)
-    - [Type Conversion / Typecasting](notes/c02_basic_data_types/Chapter%202.6%20Typecasting.md)
-    - [Chapter 2 Quiz](notes/c02_basic_data_types/quiz)
+2. **[Variables, basic data type and operations](notes/c02_basic_data_types/README.md)**
+   - [2.1. Variables](notes/c02_basic_data_types/Chapter%202.1%20Variables.md)
+   - [2.2. Numeric Data Types](notes/c02_basic_data_types/Chapter%202.2%20Numeric%20Data%20Types.md)
+   - [2.3. Strings](notes/c02_basic_data_types/Chapter%202.3%20Strings.md)
+   - [2.4. String Formatting](notes/c02_basic_data_types/Chapter%202.4%20string%20formatting.md)
+   - [2.5. Basic Operations](notes/c02_basic_data_types/Chapter%202.5%20Operations.md)
+   - [2.6. Type Casting/conversion](notes/c02_basic_data_types/Chapter%202.6%20Typecasting.md)
+   - [Chapter 2 Quiz](notes/c02_basic_data_types/quiz/README.md)
 
-3. **[Advanced Data Types](notes/c03_advanced_data_types)**
-    - [List](notes/c03_advanced_data_types/chapter%203.1%20list.md)
-    - [Tuple](notes/c03_advanced_data_types/chapter%203.2%20tuple.md)
-    - [Dictionary](notes/c03_advanced_data_types/chapter%203.3%20dictionary.md)
-    - [Set](notes/c03_advanced_data_types/chapter%203.4%20set.md)
-    - [Chapter 3 Quiz](notes/c03_advanced_data_types/quiz)
+3. **[Advanced Data Types](notes/c03_advanced_data_types/README.md)**
+   - [3.1. List](notes/c03_advanced_data_types/chapter%203.1%20list.md)
+   - [3.2. Tuple](notes/c03_advanced_data_types/chapter%203.2%20tuple.md)
+   - [3.3. Dictionary](notes/c03_advanced_data_types/chapter%203.3%20dictionary.md)
+   - [3.4. Set](notes/c03_advanced_data_types/chapter%203.4%20set.md)
+   - [3.5. Nesting](notes/c03_advanced_data_types/chapter%203.5%20nesting.md)
+   - [Chapter 3 Quiz](notes/c03_advanced_data_types/quiz/README.md)
 
-4. **[Decision Making](notes/c04_decision_making)**
-    - [`if` condition](notes/c04_decision_making/README.md#the-if-condition)
-    - [`if`-`else` condition](notes/c04_decision_making/README.md#the-if-else-condition)
-    - [`if`-`elif`-`else` conditions](notes/c04_decision_making/README.md#the-if-elif-else-condition)
-    - [the `match` condition](notes/c04_decision_making/README.md#the-match-condtion)
-    - [ternary operators](notes/c04_decision_making/README.md#ternary-operators)
-    - [Nested conditions](notes/c04_decision_making/README.md#nested-conditions)
-    - [Chapter 4 Quiz](notes/c04_decision_making/quiz)
+4. **[Decision Making](notes/c04_decision_making/README.md)**
+   - [4.1. Introduction](notes/c04_decision_making/README.md#41-introduction)
+   - [4.2. The `if` condition](notes/c04_decision_making/README.md#42-the-if-condition)
+   - [4.3. The `if else` condition](notes/c04_decision_making/README.md#43-the-if-else-condition)
+   - [4.4. The `if elif else` condition](notes/c04_decision_making/README.md#44-the-if-elif-else-condition)
+   - [4.5. The `match` Condtion](notes/c04_decision_making/README.md#45-the-match-condtion)
+   - [4.6. Ternary operators](notes/c04_decision_making/README.md#46-ternary-operators)
+   - [4.7. Nested Conditions](notes/c04_decision_making/README.md#47-nested-conditions)
+   - [Chapter 4 Quiz](notes/c04_decision_making/quiz/README.md)
 
-5. **[Loops, Pattern Generation, and Comprehension](notes/c05_loops)**
-    - [While Loop](notes/c05_loops/Chapter%205.1%20while%20loop.md)
-        - [The `break` and the `continue` statement](notes/c05_loops/Chapter%205.1%20while%20loop.md#the-break-and-the-continue-statement)
-        - [`while`-`else`](notes/c05_loops/Chapter%205.1%20while%20loop.md#while-else)
-        - [Nested `while` loop](notes/c05_loops/Chapter%205.1%20while%20loop.md#nested-while-loop)
-    - [For Loop](notes/c05_loops/Chapter%205.2%20for%20loop.md)
-        - [the `enumerate()` function](notes/c05_loops/Chapter%205.2%20for%20loop.md#the-enumerate-function)
-        - [the `zip()` function](notes/c05_loops/Chapter%205.2%20for%20loop.md#the-zip-function)
-    - [Pattern Generation](notes/c05_loops/Chapter%205.3%20Pattern%20Generation.md)
-    - [Comprehensions](notes/c05_loops/Chapter%205.4%20Comprehensions.md)
-    - [Chapter 5 Quiz](notes/c05_loops/quiz)
+5. **[Loops, Pattern Generation, and Comprehension](notes/c05_loops/README.md)**
+   - [5.1. While Loop](notes/c05_loops/Chapter%205.1%20while%20loop.md)
+     - [The `break` and the `continue` statement](notes/c05_loops/Chapter%205.1%20while%20loop.md#the-break-and-the-continue-statement)
+     - [`while`-`else`](notes/c05_loops/Chapter%205.1%20while%20loop.md#while-else)
+     - [Nested `while` loop](notes/c05_loops/Chapter%205.1%20while%20loop.md#nested-while-loop)
+   - [5.2. For Loop](notes/c05_loops/Chapter%205.2%20for%20loop.md)
+     - [the `enumerate()` function](notes/c05_loops/Chapter%205.2%20for%20loop.md#the-enumerate-function)
+     - [the `zip()` function](notes/c05_loops/Chapter%205.2%20for%20loop.md#the-zip-function)
+   - [5.3. Pattern Generation](notes/c05_loops/Chapter%205.3%20Pattern%20Generation.md)
+   - [5.4. Comprehensions](notes/c05_loops/Chapter%205.4%20Comprehensions.md)
+   - [Chapter 5 Quiz](notes/c05_loops/quiz/README.md)
 
-6. **[Functions](notes/c06_functions)**
-    - [Introduction to Functions](notes/c06_functions/Chapter%206.1%20function.md)
-        - Defining a function
-        - Calling a function
-        - the `return` statement
-        - the `pass` statement
-        - Local Variables and Global variables
-    - [default arguments](notes/c06_functions/Chapter%206.2%20default%20arguments.md)
-    - [arguments and keyword arguments](notes/c06_functions/Chapter%206.3%20args%20kwargs.md)
-    - [Recursive Functions](notes/c06_functions/Chapter%206.4%20recursive%20functions.md)
-    - [Lambda functions](notes/c06_functions/Chapter%206.5%20lambda.md)
-    - [Chapter 6 Quiz](notes/c06_functions/quiz)
+6. **[Functions](notes/c06_functions/README.md)**
+   - [6.1. Introduction to Functions](notes/c06_functions/Chapter%206.1%20function.md)
+     - Defining a function
+     - Calling a function
+     - the `return` statement
+     - the `pass` statement
+     - Local Variables and Global variables
+   - [6.2. default arguments](notes/c06_functions/Chapter%206.2%20default%20arguments.md)
+   - [6.3. Arbitrary Arguments and Keyword Arguments](notes/c06_functions/Chapter%206.3%20args%20kwargs.md)
+   - [6.4. Recursive Functions](notes/c06_functions/Chapter%206.4%20recursive%20functions.md)
+   - [6.5. Lambda functions](notes/c06_functions/Chapter%206.5%20lambda.md)
+   - [Chapter 6 Quiz](notes/c06_functions/quiz/README.md)
 
-7. **[Classes](notes/c07_oop)**
-    - [Introduction to Object-Oriented Programming](notes/c07_oop/Chapter-7.1-oop.md#introduction-to-oop)
+7. **[Classes](notes/c07_oop/README.md)**
+    - [7.1. Introduction to Object-Oriented Programming](notes/c07_oop/Chapter-7.1-oop.md#introduction-to-oop)
         - Class
         - Class attributes, methods, and the `self` parameter
         - the Constructor method
         - built-in class attributes
         - object
-    - [Class methods and Static methods](notes/c07_oop/Chapter-7.2-Class-Methods-and-Static-Methods.md)
-    - [Operator Overloading](notes/c07_oop/Chapter-7.3-Operator-Overloading.md)
-      -[Encapsulation in python](notes/c07_oop/Chapter-7.4-Encapsulation.md)
+    - [7.2. Class methods and Static methods](notes/c07_oop/Chapter-7.2-Class-Methods-and-Static-Methods.md)
+    - [7.3. Operator Overloading](notes/c07_oop/Chapter-7.3-Operator-Overloading.md)
+    - [7.4. Encapsulation in python](notes/c07_oop/Chapter-7.4-Encapsulation.md)
         - [getters and setters](notes/c07_oop/Chapter-7.4-Encapsulation.md#getter-and-setter-methods)
         - [The `@property` Decorator](notes/c07_oop/Chapter-7.4-Encapsulation.md#the-property-decorator)
-    - [Inheritance and Polymorphism](notes/c07_oop/Chapter-7.5-Inheritance-and-Polymorphism.md)
+    - [7.5. Inheritance and Polymorphism](notes/c07_oop/Chapter-7.5-Inheritance-and-Polymorphism.md)
         - Parent Class
         - Child Class
         - `super()` function
         - Mixins
     - [Chapter 7 Quiz](notes/c07_oop/quiz)
 
-8. **[Python Modules and packages](note/c08_modules_packages)**
-    - [Modules](notes/c08_modules_packages/chapter-8.1-modules.md)
-    - [Packages](notes/c08_modules_packages/chapter-8.2-packages.md)
-    - [The `datetime` module](notes/c08_modules_packages/chapter-8.3-datetime.md)
-    - [The `random` module](notes/c08_modules_packages/chapter-8.4-random.md)
-    - [The `json` module](notes/c08_modules_packages/chapter-8.5-json.md)
-    - [The `math` module](notes/c08_modules_packages/chapter-8.6-math.md)
-    - [The `complex` and `cmath` module](notes/c08_modules_packages/chapter-8.7-complex-and-cmath.md)
+8. **[Python Modules and packages](notes/c08_modules_packages/README.md)**
+- [8.1. Python Modules](notes/c08_modules_packages/chapter-8.1-modules.md)
+- [8.2. Packages](notes/c08_modules_packages/chapter-8.2-packages.md)
+- [8.3. `datetime` Module](notes/c08_modules_packages/chapter-8.3-datetime.md)
+- [8.4. `random` Module](notes/c08_modules_packages/chapter-8.4-random.md)
+- [8.5. `json` Module](notes/c08_modules_packages/chapter-8.5-json.md)
+- [8.6. `math` Module](notes/c08_modules_packages/chapter-8.6-math.md)
+- [8.7. `complex` and `cmath` Module](notes/c08_modules_packages/chapter-8.7-complex-and-cmath.md)
 
-9. **[File I/O](notes/c09_file)**
-    - `open()` function
-    - `close()` method
-    - `write()` method
-    - `read()` method
-    - `with` keyword
+
+9. **[File I/O](notes/c09_file/README.md)**
+  - [9.1. Introduction to File Handling](notes/c09_file/README.md#91-introduction-to-file-handling)
+  - [9.2. File Opening Modes](notes/c09_file/README.md#92-file-opening-modes)
+  - [9.3. Opening and closing a file in python](notes/c09_file/README.md#93-opening-and-closing-a-file-in-python)
+  - [9.4. Reading a file](notes/c09_file/README.md#94-reading-a-file)
+    - [The newer approach using `with` keyword](notes/c09_file/README.md#the-newer-approach-using-with-keyword)
+  - [9.5. Writing into a file](notes/c09_file/README.md#95-writing-into-a-file)
+  - [9.6. Appending into a file](notes/c09_file/README.md#96-appending-into-a-file)
+  - [9.7. Reading a file line by line](notes/c09_file/README.md#97-reading-a-file-line-by-line)
 
 10. **[Exceptions and Exception Handling](notes/c10_exceptions/README.md)**
-    - [Introduction to Exceptions](notes/c10_exceptions/chapter-10.1-exceptions.md)
-    - [Exception Handling in Python](notes/c10_exceptions/chapter-10.2-exception-handling.md)
+    - [10.1. Introduction to Exceptions](notes/c10_exceptions/chapter-10.1-exceptions.md)
+    - [10.2. Exception Handling in Python](notes/c10_exceptions/chapter-10.2-exception-handling.md)
       - Standard Errors
       - `try`, `except` keyword
       - `try` `except` `else`
       - `finally` keyword
       - `raise` keyword
-    - [Custom Exceptions](notes/c10_exceptions/chapter-10.3-custom-exceptions.md)
+    - [10.3. Custom Exceptions](notes/c10_exceptions/chapter-10.3-custom-exceptions.md)
     - Total
 
 11. **[Python Package Management with PIP](notes/c11_pip)**
