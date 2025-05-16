@@ -1,6 +1,6 @@
 [project]
 name="python-perks"
-version = "4.0.0"
+version = "4.0.1"
 description="A repository for Python course notes, examples, and lab exercises targeted to students, professionals, and enthusiasts."
 authors=[
     { name="Sudip Ghimire", email="ghimiresdp@gmail.com" },
