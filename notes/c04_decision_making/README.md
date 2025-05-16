@@ -3,15 +3,15 @@
 **Table of Contents**:
 
 - [Chapter 4. Decision Making](#chapter-4-decision-making)
-  - [Introduction](#introduction)
-  - [The `if` condition](#the-if-condition)
-  - [The `if else` condition](#the-if-else-condition)
-  - [The `if elif else` condition](#the-if-elif-else-condition)
-  - [The `match` Condtion](#the-match-condtion)
-  - [Ternary operators](#ternary-operators)
-  - [Nested Conditions](#nested-conditions)
+  - [4.1. Introduction](#41-introduction)
+  - [4.2. The `if` condition](#42-the-if-condition)
+  - [4.3. The `if else` condition](#43-the-if-else-condition)
+  - [4.4. The `if elif else` condition](#44-the-if-elif-else-condition)
+  - [4.5. The `match` Condtion](#45-the-match-condtion)
+  - [4.6. Ternary operators](#46-ternary-operators)
+  - [4.7. Nested Conditions](#47-nested-conditions)
 
-## Introduction
+## 4.1. Introduction
 
 Decision Making (Also known as conditional branching) is the process of running
 certain part of code whenever the condition satisfies. For example, If we want
@@ -20,7 +20,7 @@ create condition that handles the game with respect to the age.
 
 We use `if`, `elif`, and `else` conditions to perform conditional branching.
 
-## The `if` condition
+## 4.2. The `if` condition
 
 - It is written with `if` keyword
 - code blocks that should run whenever the condition matches are indented.
@@ -67,7 +67,7 @@ I am outside of the code block
 '''
 ```
 
-## The `if else` condition
+## 4.3. The `if else` condition
 
 The `if else` condition is similar to the `if` condition but has another code
 block that runs when the condition is not satisfied.
@@ -93,7 +93,7 @@ else:
     print(f'{x} is odd number')
 ```
 
-## The `if elif else` condition
+## 4.4. The `if elif else` condition
 
 The `if elif else` condition adds more flexibility to branching providing more
 than one conditions.
@@ -135,7 +135,7 @@ In case of `if elif` conditions, if the first condition satisfies, it
 never goes to check another condition so we need to make sure we're using it
 properly to get the expected output
 
-## The `match` Condtion
+## 4.5. The `match` Condtion
 
 The `match` keyword is a new concept introduced in python version `3.10`. It
 can be used in pattern matching. A `match` statement is similar to `if-else`
@@ -222,7 +222,7 @@ is used as a wildcard.
 To know more about `match` statement, you can check the documentation at
 <https://docs.python.org/3/reference/compound_stmts.html#the-match-statement>.
 
-## Ternary operators
+## 4.6. Ternary operators
 
 Ternary operators are also known as single statement conditional branching and
 are used whenever we have conditions that has only one statement or assignment
@@ -246,7 +246,7 @@ using the following code:
 size = 'small' if x < 7 else ('medium' if (7 <= x < 10) else 'large')
 ```
 
-## Nested Conditions
+## 4.7. Nested Conditions
 
 Nested conditions are conditions that exist within another condition.
 

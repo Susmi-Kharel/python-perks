@@ -59,14 +59,12 @@ _[**Notes section**](#notes) first to get started with python._
    5. Longest Common Subsequence Problem
 
 ### Notes
-_(Links will be updated accordingly)_
-
-1. **[Fundamentals of Python](notes/c01_basics)**
+1. **[Fundamentals of Python](notes/c01_basics/README.md)**
     - [Introduction to Python](notes/c01_basics/Chapter-1.1-Basics.md)
     - [Python Environment Setup, IDE Setup](notes/c01_basics/Chapter-1.1-Basics.md#installing-python)
     - [Hello World in Python](notes/c01_basics/Chapter-1.1-Basics.md#hello-world-with-idle)
     - [Running Python Programs](notes/c01_basics/Chapter-1.1-Basics.md#creating-editing-and-running-python-files)
-    - comments and documentation
+    - [comments and documentation](notes/c01_basics/Chapter-1.1-Basics.md#comment-lines)
         - Single Line Comments
         - inline Comments
         - Multiline Comments
@@ -74,42 +72,43 @@ _(Links will be updated accordingly)_
     - indentation
     - [Chapter 1 Quiz](notes/c01_basics/quiz)
 
-2. **[Variables, basic data type and operations](notes/c02_basic_data_types)**
-    - [Variables, constants, and keywords](notes/c02_basic_data_types/Chapter%202.1%20Variables.md)
-    - [Numeric Data Types](notes/c02_basic_data_types/Chapter%202.2%20Numeric%20Data%20Types.md)
-    - [Strings](notes/c02_basic_data_types/Chapter%202.3%20Strings.md)
-    - [String Formatting](notes/c02_basic_data_types/Chapter%202.4%20string%20formatting.md)
-    - [Basic Operations](notes/c02_basic_data_types/Chapter%202.5%20Operations.md)
-    - Type Hinting in Python (only for python 3.6 and later)
-    - [Type Conversion / Typecasting](notes/c02_basic_data_types/Chapter%202.6%20Typecasting.md)
-    - [Chapter 2 Quiz](notes/c02_basic_data_types/quiz)
+2. **[Variables, basic data type and operations](notes/c02_basic_data_types/README.md)**
+   - [2.1. Variables](notes/c02_basic_data_types/Chapter%202.1%20Variables.md)
+   - [2.2. Numeric Data Types](notes/c02_basic_data_types/Chapter%202.2%20Numeric%20Data%20Types.md)
+   - [2.3. Strings](notes/c02_basic_data_types/Chapter%202.3%20Strings.md)
+   - [2.4. String Formatting](notes/c02_basic_data_types/Chapter%202.4%20string%20formatting.md)
+   - [2.5. Basic Operations](notes/c02_basic_data_types/Chapter%202.5%20Operations.md)
+   - [2.6. Type Casting/conversion](notes/c02_basic_data_types/Chapter%202.6%20Typecasting.md)
+   - [Chapter 2 Quiz](notes/c02_basic_data_types/quiz/README.md)
 
-3. **[Advanced Data Types](notes/c03_advanced_data_types)**
-    - [List](notes/c03_advanced_data_types/chapter%203.1%20list.md)
-    - [Tuple](notes/c03_advanced_data_types/chapter%203.2%20tuple.md)
-    - [Dictionary](notes/c03_advanced_data_types/chapter%203.3%20dictionary.md)
-    - [Set](notes/c03_advanced_data_types/chapter%203.4%20set.md)
-    - [Chapter 3 Quiz](notes/c03_advanced_data_types/quiz)
+3. **[Advanced Data Types](notes/c03_advanced_data_types/README.md)**
+   - [3.1. List](notes/c03_advanced_data_types/chapter%203.1%20list.md)
+   - [3.2. Tuple](notes/c03_advanced_data_types/chapter%203.2%20tuple.md)
+   - [3.3. Dictionary](notes/c03_advanced_data_types/chapter%203.3%20dictionary.md)
+   - [3.4. Set](notes/c03_advanced_data_types/chapter%203.4%20set.md)
+   - [3.5. Nesting](notes/c03_advanced_data_types/chapter%203.5%20nesting.md)
+   - [Chapter 3 Quiz](notes/c03_advanced_data_types/quiz/README.md)
 
-4. **[Decision Making](notes/c04_decision_making)**
-    - [`if` condition](notes/c04_decision_making/README.md#the-if-condition)
-    - [`if`-`else` condition](notes/c04_decision_making/README.md#the-if-else-condition)
-    - [`if`-`elif`-`else` conditions](notes/c04_decision_making/README.md#the-if-elif-else-condition)
-    - [the `match` condition](notes/c04_decision_making/README.md#the-match-condtion)
-    - [ternary operators](notes/c04_decision_making/README.md#ternary-operators)
-    - [Nested conditions](notes/c04_decision_making/README.md#nested-conditions)
-    - [Chapter 4 Quiz](notes/c04_decision_making/quiz)
+4. **[Decision Making](notes/c04_decision_making/README.md)**
+   - [4.1. Introduction](notes/c04_decision_making/README.md#41-introduction)
+   - [4.2. The `if` condition](notes/c04_decision_making/README.md#42-the-if-condition)
+   - [4.3. The `if else` condition](notes/c04_decision_making/README.md#43-the-if-else-condition)
+   - [4.4. The `if elif else` condition](notes/c04_decision_making/README.md#44-the-if-elif-else-condition)
+   - [4.5. The `match` Condtion](notes/c04_decision_making/README.md#45-the-match-condtion)
+   - [4.6. Ternary operators](notes/c04_decision_making/README.md#46-ternary-operators)
+   - [4.7. Nested Conditions](notes/c04_decision_making/README.md#47-nested-conditions)
+   - [Chapter 4 Quiz](notes/c04_decision_making/quiz/README.md)
 
-5. **[Loops, Pattern Generation, and Comprehension](notes/c05_loops)**
-    - [While Loop](notes/c05_loops/Chapter%205.1%20while%20loop.md)
+5. **[Loops, Pattern Generation, and Comprehension](notes/c05_loops/README.md)**
+    - [5.1. While Loop](notes/c05_loops/Chapter%205.1%20while%20loop.md)
         - [The `break` and the `continue` statement](notes/c05_loops/Chapter%205.1%20while%20loop.md#the-break-and-the-continue-statement)
         - [`while`-`else`](notes/c05_loops/Chapter%205.1%20while%20loop.md#while-else)
         - [Nested `while` loop](notes/c05_loops/Chapter%205.1%20while%20loop.md#nested-while-loop)
-    - [For Loop](notes/c05_loops/Chapter%205.2%20for%20loop.md)
+    - [5.2. For Loop](notes/c05_loops/Chapter%205.2%20for%20loop.md)
         - [the `enumerate()` function](notes/c05_loops/Chapter%205.2%20for%20loop.md#the-enumerate-function)
         - [the `zip()` function](notes/c05_loops/Chapter%205.2%20for%20loop.md#the-zip-function)
-    - [Pattern Generation](notes/c05_loops/Chapter%205.3%20Pattern%20Generation.md)
-    - [Comprehensions](notes/c05_loops/Chapter%205.4%20Comprehensions.md)
+    - [5.3. Pattern Generation](notes/c05_loops/Chapter%205.3%20Pattern%20Generation.md)
+    - [5.4. Comprehensions](notes/c05_loops/Chapter%205.4%20Comprehensions.md)
     - [Chapter 5 Quiz](notes/c05_loops/quiz)
 
 6. **[Functions](notes/c06_functions)**
